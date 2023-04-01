@@ -1,0 +1,149 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.el-col {
+	min-height: 1px
+}
+
+.el-header {
+	background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4 51%, #E55D87 100%);
+	padding: 15px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	box-shadow: 0 0 20px #eee;
+	display: block;
+	line-height: 30px;
+	font-size: 25px;
+	position: relative;
+	font-weight: bold;
+
+}
+
+.el-image__preview {
+	cursor: pointer
+}
+
+.el-image__placeholder {
+	background: #F5F7FA;
+	width: 100%;
+	height: 100%
+}
+
+.el-header:hover {
+	background-position: right center;
+	/* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.el-footer {
+	background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4 51%, #E55D87 100%);
+	padding: 10px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	box-shadow: 0 0 20px #eee;
+	display: block;
+	line-height: 30px;
+	font-size: 18px;
+	position: fixed;
+	bottom: 0;
+}
+
+.el-footer:hover {
+	background-position: right center;
+	/* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.el-main {
+	margin: 20px;
+	color: #333;
+	text-align: center;
+}
+
+body>.el-container {
+	margin-bottom: 40px;
+}
+
+.avatar-uploader .el-upload {
+	border: 1px dashed #d9d9d9;
+	border-radius: 6px;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+.avatar-uploader .el-upload:hover {
+	border-color: #409EFF;
+}
+
+.avatar-uploader-icon {
+	font-size: 28px;
+	color: #E55D87;
+	width: 500px;
+	line-height: 400px;
+	text-align: center;
+}
+
+.avatar {
+	width: 500px;
+	height: 400px;
+	display: block;
+}
+
+
+
+
+pre {
+	outline: 1px solid #ccc;
+	padding: 5px;
+	margin: 5px;
+	text-align: left
+}
+
+.string {
+	color: green;
+}
+
+.number {
+	color: darkorange;
+}
+
+.boolean {
+	color: blue;
+}
+
+.null {
+	color: magenta;
+}
+
+.key {
+	color: red;
+}
+
+.el-carousel__item h3 {
+	color: #475669;
+	font-size: 14px;
+	opacity: 0.75;
+	line-height: 150px;
+	margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+	background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n+1) {
+	background-color: #d3dce6;
+}

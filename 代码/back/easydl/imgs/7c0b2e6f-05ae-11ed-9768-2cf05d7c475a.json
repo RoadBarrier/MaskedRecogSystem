@@ -1,0 +1,26 @@
+{
+    "cost_ms": 3512,
+    "error_code": 0,
+    "results": [
+        {
+            "confidence": 0.9996970891952515,
+            "frame": 0,
+            "index": 2,
+            "label": "with_mask",
+            "location": {
+                "height": 205,
+                "left": 224,
+                "top": 190,
+                "width": 202
+            },
+            "modelKind": 2,
+            "name": "with_mask",
+            "score": 0.9996970891952515,
+            "trackId": 0,
+            "x1": 0.280792236328125,
+            "x2": 0.5341750979423523,
+            "y1": 0.25488460063934326,
+            "y2": 0.5289599895477295
+        }
+    ]
+}
